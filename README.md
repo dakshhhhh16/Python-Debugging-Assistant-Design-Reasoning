@@ -20,6 +20,7 @@ This repository contains the AI debugging assistant prompt design for Python Scr
 
 ---
 
-*Submission by: Daksh Pathak* 
-*Date: September 14, 2025*  
-*Contact: pathakdaksh1601@gmail.com*
+  *Submission by: Daksh Pathak* 
+  
+  *Date: September 14, 2025*  
+  *Contact: pathakdaksh1601@gmail.com*
