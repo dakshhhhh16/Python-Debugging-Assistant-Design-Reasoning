@@ -17,6 +17,6 @@ This repository contains the AI debugging assistant prompt design for Python Scr
 3. **For examples:** See practical applications in `examples.md`
 
 ---
-Submission by: [Daksh Pathak]
+Submission by: Daksh Pathak
 Date: September 14, 2025
-Contact: [pathakdaksh1601@gmail.com]
+Contact: pathakdaksh1601@gmail.com
