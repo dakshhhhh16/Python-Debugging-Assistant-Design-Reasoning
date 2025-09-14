@@ -15,12 +15,6 @@ This repository showcases my approach to designing an AI prompt that teaches deb
 2. **Design insights**: Explore my reasoning and educational philosophy in [`design_reasoning.md`](./design_reasoning.md)
 3. **Real scenarios**: Check out practical demonstrations in [`examples.md`](./examples.md)
 
-## Key Features
-- **Socratic Teaching Method**: Guides students through questions, not answers
-- **Skill-Level Adaptation**: Automatically adjusts complexity for beginners vs advanced learners
-- **Confidence Building**: Maintains encouraging tone even when multiple bugs exist
-- **Long-term Learning**: Focuses on teaching debugging strategies, not just fixing immediate problems
-
 ---
 
 **Created by:** Daksh Pathak  
