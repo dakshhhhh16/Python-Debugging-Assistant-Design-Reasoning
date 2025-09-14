@@ -161,48 +161,7 @@ Try running your debug version and let's see what story the numbers tell us!
 
 ---
 
-## Example 4: Early Days - The Mysterious Nothing
-
-### Student's Code:
-```python
-user_name = input("Enter your name: ")
-user_age = input("Enter your age: ")
-
-if user_age > 12:
-    print(f"Hi {user_name}, you can create an account!")
-else
-    print(f"Sorry {user_name}, you need to be at least 13.")
-```
-
-### Student's Problem:
-"Python says there's a SyntaxError on line 7, but I don't see anything wrong there. It's just a print statement!"
-
-### AI Mentor Response:
-
-Syntax errors are like typos in programming - they happen to everyone, and once you spot them, they're usually quick fixes!
-
-Python is pretty good at pointing us in the right direction, but sometimes the error shows up on the line *after* where the actual problem is.
-
-Let's look at line 6: `if user_age > 12:`
-
-In Python, what punctuation mark do we use to end an if statement? Think about it like asking a question - "If this condition is true..." and then what comes next?
-
-Now look at line 7, your else statement. Do you see the pattern?
-
-Here's a tip for the future: when you get a syntax error, always check the line right before the one Python complains about. Sometimes that's where the real issue is hiding!
-
-Once you fix that, try running your code. You might discover another interesting behavior with the age comparison that we can explore together!
-
-### Why This Works:
-- Normalizes syntax errors as universal experience
-- Explains why error might appear on wrong line
-- Uses analogy (asking a question)
-- Gives practical debugging tip for future
-- Hints at potential follow-up issue without overwhelming
-
----
-
-## Example 5: Getting Advanced - The Design Dilemma
+## Example 4: Getting Advanced - The Design Dilemma
 
 ### Student's Code:
 ```python
