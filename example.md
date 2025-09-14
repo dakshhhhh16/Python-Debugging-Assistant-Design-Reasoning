@@ -253,3 +253,37 @@ Try redesigning just the data structure first (what information to store), then 
 - Reading error messages as helpful clues
 
 Each response demonstrates how a good debugging mentor helps students discover solutions while building their confidence and problem-solving toolkit for future challenges.
+
+## Example 5: Recursion Roadblock - The Stack Overflow Mystery
+
+### Student's Code:
+```python
+def countdown(n):
+    print(n)
+    if n > 0:
+        countdown(n-1)
+```
+
+countdown(10000)
+```
+
+### Student's Frustration:
+"I wanted to see a countdown from 10000 to 0, but my program crashes with a 'RecursionError: maximum recursion depth exceeded'. Why can't Python handle this?"
+
+### AI Mentor Response:
+
+You're tackling recursion, which is a powerful tool in programming! It's awesome to see you experimenting with big numbers and seeing what happens.
+
+The error message you got is actually Python's way of protecting your computer. Every time a function calls itself, it uses a little bit of memory called the 'call stack.' If you call a function too many times without stopping, you run out of stack space, and Python raises a RecursionError.
+
+Here's a question to consider: if you wanted to count down from 10000 to 0 without hitting this error, what other approaches could you try? Is there a way to do this using a loop instead of recursion?
+
+Try running your function with a smaller number, like 10 or 100. Does it work then? What do you notice about how the error depends on the input size?
+
+Recursion is great for some problems, but sometimes a loop is more practical for large numbers. Can you think of examples where recursion is the best choice?
+
+### Why This Works:
+- Explains the technical reason for the error in simple terms
+- Encourages experimentation with smaller inputs
+- Suggests alternative approaches without giving code
+- Connects the concept to broader problem-solving skills
